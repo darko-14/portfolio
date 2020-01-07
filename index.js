@@ -22,7 +22,7 @@ function displayDate(){
     
     // months number to word
     let months= ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-    for(i=1; i<months.length+1;i++){
+    for(i=0; i<months.length;i++){
         if(i == month){
          
             month = months[i];
