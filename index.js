@@ -48,26 +48,3 @@ function displayDate(){
     let time = h + ":" + m + ":" + s;
     document.getElementById('time').innerHTML = time + " --- "+ fullDate;
 };
-
-
-
-
-
-
-
-// projects
-
-// fix transitions
-
-
-
-//uniques 
-let element = [];
-for( i = 0; i < 50; i++){
-const id = Math.floor((Math.random() * 100) + 1);
-element.push(id);
-    
-}
-const unique = Array.from(new Set(element));
-console.log("randoms: " + element);
-console.log("uniques: " + unique);
